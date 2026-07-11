@@ -1,3 +1,12 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-print/compare/v1.0.4...v1.0.5) (2026-07-11)
+
+
+### Bug Fixes
+
+* bump package versions ([43b1d77](https://github.com/CoCreate-app/CoCreate-print/commit/43b1d7747fade6f3741b329813cf5914581027d3))
+* removed post install and add add packages to apprved list ([a768b50](https://github.com/CoCreate-app/CoCreate-print/commit/a768b50298b84b24d3ade3d0ba68b4eedc8ca6ea))
+* semantic version handling ([57fa6a6](https://github.com/CoCreate-app/CoCreate-print/commit/57fa6a6635d86af3339788b2eb0d4bc837569ddc))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-print/compare/v1.0.3...v1.0.4) (2026-02-04)
 
 
