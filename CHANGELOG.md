@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-print/compare/v1.0.5...v1.1.0) (2026-07-17)
+
+
+### Features
+
+* update automated workflow and release configuration for improved semantic release handling ([222b9ab](https://github.com/CoCreate-app/CoCreate-print/commit/222b9ab1fc15e3cfabe020b49ae1c91858d5946d))
+
 ## [1.0.5](https://github.com/CoCreate-app/CoCreate-print/compare/v1.0.4...v1.0.5) (2026-07-11)
 
 
