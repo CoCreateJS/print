@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/CoCreate-app/CoCreate-print/compare/v1.1.1...v1.1.2) (2026-07-19)
+
+
+### Bug Fixes
+
+* set default branch to main ([ad5521e](https://github.com/CoCreate-app/CoCreate-print/commit/ad5521e9e2f88cba345897634617948db1332793))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-print/compare/v1.1.0...v1.1.1) (2026-07-17)
 
 
