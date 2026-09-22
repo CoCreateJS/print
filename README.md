@@ -78,6 +78,20 @@ We want this library to be community-driven, and CoCreate led. We need your help
 
 We appreciate your continued support, thank you!
 
+## Print actions
+
+Use `actions="print"` with `print-query` to print selected elements. Without an
+`actions` attribute, `print-query` also works as a standalone click control.
+Repeated initialization does not attach duplicate click handlers.
+
+Printing copies current input, checkbox, textarea, and select values into an
+isolated iframe, loads the page styles and images, and expands scroll containers
+without changing the live view. The `printed` event is emitted from the trigger
+and bubbles after the browser's print dialog closes (`afterprint`); it does not
+indicate that the user actually printed rather than cancelled. Action chains
+continue at that point. Failures emit `printError` and abort the chain. The print
+iframe is removed on completion or failure.
+
 # License
 
 [The MIT License (MIT)](https://github.com/CoCreate-app/CoCreate-print/blob/master/LICENSE)
