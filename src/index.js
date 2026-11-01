@@ -13,6 +13,11 @@ import Observer from "@cocreate/observer";
 const selector = "[print-query]";
 const initialized = new WeakSet();
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 function init(element) {
     const elements = !element ? document.querySelectorAll(selector)
         : element instanceof Element ? [element] : element;
@@ -57,6 +62,11 @@ function cloneForPrint(target) {
     return clone;
 }
 
+/**
+ *
+ * @public
+ * @environment client
+ */
 async function print(elements) {
     if (!elements) return;
     const targets = elements instanceof Element ? [elements] : Array.from(elements);
@@ -148,3 +158,74 @@ Observer.init({
 });
 
 export default { init, print };
+
+/**
+ *
+ * @name actions
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name aria-hidden
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name print-query
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ *
+ * @name value
+ * @kind member
+ * @attribute
+ * @environment client
+ */
+
+/**
+ * A simple print component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API.
+ *
+ * @module print
+ * @environment client
+ */
+
+/**
+ * Declarative selectors recognized by this module.
+ *
+ * @name declarative-selectors
+ * @kind member
+ * @selectors
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   "[print-query]"
+ * ]
+ * ```
+ */
+
+/**
+ * Declarative actions supported or registered by this module.
+ *
+ * @name declarative-actions
+ * @kind member
+ * @actions
+ * @environment client
+ * @example
+ * ```json
+ * [
+ *   {
+ *     "name": "print"
+ *   }
+ * ]
+ * ```
+ */
