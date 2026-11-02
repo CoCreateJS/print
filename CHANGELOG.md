@@ -1,3 +1,22 @@
+# [1.2.0](https://github.com/CoCreateJS/print/compare/v1.1.2...v1.2.0) (2026-11-02)
+
+
+### Bug Fixes
+
+* add Deno specific entries to .gitignore ([5327c03](https://github.com/CoCreateJS/print/commit/5327c03ba4de0a0dd02d5f773091dfdd8c387324))
+* bump [@cocreate](https://github.com/cocreate) dependencies ([d0e45de](https://github.com/CoCreateJS/print/commit/d0e45de50ec966f8b6ab8a8330dba784e58763a7))
+* bump [@cocreate](https://github.com/cocreate) package versions ([8815441](https://github.com/CoCreateJS/print/commit/8815441ed28f09f97a94b96d76ab8be8e1bf4a1b))
+* bump versions ([f77e7a5](https://github.com/CoCreateJS/print/commit/f77e7a5e73e151d38a981cec33fe8f8d9c042dcb))
+* bump versions ([d1194f9](https://github.com/CoCreateJS/print/commit/d1194f9a3d97bc8f638620a834629540f05958cc))
+* remove trailing slash from node_modules entry in .gitignore ([41fbdd3](https://github.com/CoCreateJS/print/commit/41fbdd36ce8cd92f88492a8810cd2e53e9138e53))
+* update git url ([121857c](https://github.com/CoCreateJS/print/commit/121857c7ce305db8943479a981028037894196c9))
+* update GitHub Actions to use latest versions and sync package.json description ([6578b9b](https://github.com/CoCreateJS/print/commit/6578b9b85b11160dae18023a14415f799c31b55a))
+
+
+### Features
+
+* replace uuid import and usage with utils ([b3db1b2](https://github.com/CoCreateJS/print/commit/b3db1b2a625c786e2a4c060e79a3c40fdfcf3a1e))
+
 ## [1.1.2](https://github.com/CoCreateJS/CoCreate-print/compare/v1.1.1...v1.1.2) (2026-07-19)
 
 
