@@ -162,32 +162,28 @@ export default { init, print };
 /**
  *
  * @name actions
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name aria-hidden
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name print-query
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
 /**
  *
  * @name value
- * @kind member
- * @attribute
+ * @kind attribute
  * @environment client
  */
 
